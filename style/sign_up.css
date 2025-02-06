@@ -1,0 +1,42 @@
+
+
+
+:root{
+    --color-lable:#8996bb;
+}
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin-top: 2rem;
+}
+.card img{
+    margin-top: 1rem;
+}
+button .facebook{
+    color: #3b5998;
+}
+button .google{
+    color: #ec4514;
+}
+button .twitter{
+    color: #2ba9eb;
+}
+.input-group .user,.lock,.mail{
+   color:#aab0c5;
+}
+label{
+    color: var(--color-lable);
+}
+.form-control::placeholder{
+    color: rgb(135, 154, 195);
+}
+.HaveAnAccount{
+    color: #657487;
+}
+.LoginHere{
+    color: #e4074e;
+    cursor: pointer;
+}

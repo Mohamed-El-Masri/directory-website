@@ -1,0 +1,354 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --main-color:#2d3954;
+    --second-color:#f9fafc;
+}
+:root{
+    --main-color:#e4074e;
+    --backgroundColor-section2:#94959a;
+    --footer-color:#a4afc6;
+}
+body{
+    background-color: #dfe4ec;
+}
+.card h5{
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-inline: 40px;
+  margin-top: 20px;
+}
+.card{ border-radius: 10px;
+    border: none;
+    /* background: #f8f9fa; */
+    background-color: #ffffff;
+}
+.form-label {
+   margin-top: 0.3rem !important;
+   margin-bottom: 5px !important;
+    color: #505b76;
+}
+.card input,select,.Video{
+    background-color: var(--second-color);
+    margin-top: 20px; 
+    margin-bottom:20px;
+    padding: 10px 20px;
+}
+select{
+    width: 100%;
+    border: 1px solid #dee2e6;
+    padding: 10px;  
+    border-radius: 5px; 
+    color: #a6b1c0;
+    display: block;
+}
+.custom-select option{
+    padding: 15px 20px;
+}
+.form-select {
+    position: relative;
+    z-index: 10;
+}
+
+.container .main{
+    margin-inline: 40px;
+    margin-top: 15px;
+}
+.container .main input{
+    padding: 15px 20px;
+    color: #393b3d;
+}
+.container .main textarea{
+  color: #a6b1c0;;
+}
+
+
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.upload-box p {
+    margin: 0;
+    color: #666;
+}
+
+.upload-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.file-input {
+    display: none;
+}
+.Max{
+    margin-left: 10px;
+    color: #666;
+   padding-block: 20px;
+   margin-bottom: 20px;
+   padding-top: 20px;
+}
+.galary{
+    background-color: white;
+}
+.galary h5{
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-inline: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.rowContent{
+padding: 15px 15px;
+}
+.Location,.Business,.Social,.hour,.Price {
+    background-color: white;
+    padding: 25px 25px;
+    /* margin-bottom: 20px; */
+}
+.tit{
+    padding-block:10px ;
+    padding-inline: 10px;
+  
+}
+input{
+    background-color: #e9ecf3 !important;
+    padding:15px 15px;
+}
+label i{
+    margin-right: 5px;
+}
+.Video{
+    padding-block: 2rem;
+}
+.form-check-input {
+    width: 10px;  /* عرض المربع */
+    height: 10px; /* ارتفاع المربع */
+    cursor: pointer;
+    margin-inline: 10px;
+
+}
+.form-check{
+    margin-block: 20px;
+}
+.form-check-label{
+    padding-top: 10px;
+}
+.form-check-input:checked {
+    background-color: var(--main-color) !important;  /* لون الخلفية عند التحديد */
+   
+}
+
+.form-label{
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.form-select{
+    background-color: #f0f3f8;
+    padding: 20px 10px;
+}
+.Price{
+    margin-block: 20px;
+}
+
+.Submit{
+    background-color: #e4074e;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    width: 80%;
+    margin-left: 7rem;
+    font-size: 1.2rem;
+    margin-block: 1rem;
+    border-radius: 10px;
+    margin-bottom: 20rem;
+
+}
+
+
+
+.footer
+{
+    background-color: #191f2b;
+    height: 80vh;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.footer .container{
+    display: flex;
+}
+.part1 img{
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+.part1 p{
+    color: #a4afc6;
+}
+.part1 ul i{
+    color:  #a4afc6;
+    margin-inline: 0.5rem;
+    transition: all 0.3s;
+}
+.part1 ul i:hover{
+    color: white;
+}
+.part{
+    margin-block: 10px;
+    margin-inline: 1.5rem;
+}
+.part ul li{
+    display: block;
+    padding-block: 0.7rem;
+    text-align: start;
+   
+}
+
+
+.part h2{
+    padding-top: 8rem;
+    color: white;
+}
+.part ul li a{
+    text-decoration: none;
+    color:var(--footer-color) ;
+    transition: all 0.3s;
+   
+}
+.part ul li a:hover{
+    color: white;
+}
+.footer .endFooter{
+    color: var(--footer-color);
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.footer .endFooter a{
+    text-decoration: none;
+   
+       color: var(--footer-color);
+       transition: all 0.3s;
+}
+.footer .endFooter a:hover{
+    color: var(--main-color);
+}
+.contact-subscribe-section{
+   position: absolute;
+   left:10%;
+   top:-30%;
+flex-shrink: 0;
+/* margin-left: 8rem; */
+display: block;
+margin: 0 auto;
+height: 29px;
+width: 70%;
+}
+.contact-subscribe-section .container {
+    background-color:var(--main-color);
+    padding: 20px 20px;
+    color: white;
+    width: 70%;
+    flex-shrink: 0;
+    width: 100%;
+    /* margin-left: 8rem; */
+    /* position: absolute;
+    top:40%;
+    left: 30px;
+    z-index: 3; */
+}
+
+.contact-box, .subscribe-box {
+    display: flex;
+    align-items: center;
+    border:3px dotted #ee6390;
+    padding: 15px;
+    border-radius: 8px;
+    margin-block: 3rem;
+    margin-inline: 2rem;
+    flex: 1;
+}
+.contact-box i, .subscribe-box i {
+    font-size: 30px;
+    margin-right: 15px;
+    
+}
+/* .contact-box i::before
+{
+    content: "24";
+    font-size: 15px;
+    position: absolute;
+   
+} */
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+.input-group input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-group .btn {
+
+
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    position: relative;
+    background-color: #191f2b;
+    width: 40px;
+    height: 40px;
+}
+.btn i{
+    color: white;
+    position: absolute;
+    top:10px;
+    left: 9px;
+    font-size: 22px;
+ 
+}
+.arrow{
+    position: absolute;
+    right:10px;
+   bottom:15px;
+   top:10px
+    
+}
+
+.arrow i{
+    padding: 20px 15px;
+    background-color:#262d3c;
+    color: white;
+   transition: all 1s;
+
+
+}
+.arrow i:hover{
+    background-color: white;
+    color:#262d3c;
+}

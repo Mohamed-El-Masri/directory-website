@@ -1,0 +1,23 @@
+:root{
+    --color-lable:#8996bb;
+}
+
+
+button .facebook{
+    color: #3b5998;
+}
+button .google{
+    color: #ec4514;
+}
+button .twitter{
+    color: #2ba9eb;
+}
+.input-group .user,.lock{
+   color:#aab0c5;
+}
+label{
+    color: var(--color-lable);
+}
+.form-control::placeholder{
+    color: rgb(135, 154, 195);
+}
